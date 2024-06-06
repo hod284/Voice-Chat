@@ -38,6 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -817,7 +818,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1769839049}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5964a34c8ce9c040b84e68f8453b01d, type: 3}
+  m_Script: {fileID: 11500000, guid: 51b25c603347f5e4b95e5ecbaf6a81b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Discovery: {fileID: 1769839056}
@@ -831,28 +832,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1769839049}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e41f5ac27cd5d94290b437bd63e3e94, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f959282759004a4ab222a9cf8655ff9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Port: 47777
-  m_UniqueApplicationId: 6954739339294293957
+  m_UniqueApplicationId: -8229540620373377468
   m_StartWithServer: 1
   ServerName: EnterName
   OnServerFound:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1769839055}
-        m_TargetAssemblyTypeName: ConnectionManger, Assembly-CSharp
-        m_MethodName: OnServerFound
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1778776998
 GameObject:
   m_ObjectHideFlags: 0
@@ -902,7 +891,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1778776998}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b9c0f0f1a3b2424d99de1d6f79b69d8, type: 3}
+  m_Script: {fileID: 11500000, guid: 6197e7d11f6c37f478aae0b4a631bdd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   button1: {fileID: 844528}
